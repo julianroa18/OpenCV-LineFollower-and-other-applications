@@ -100,3 +100,9 @@ And then the node
 rosrun opencv_JR follower_JR 
 ```
 NOTE: This template is docummented in english
+
+# Developers
+-Julián Roa
+-Kevin Parra
+-Gerson Hernández
+-Daniel Cruz
