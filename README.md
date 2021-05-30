@@ -32,3 +32,5 @@ With this template you will learn how to apply diverse linear filters to smooth 
 This template uses houghcircle method to find circles on the processed image, and with this information, it draws a cirle on the original image.
 
 ![HoughCircles](https://user-images.githubusercontent.com/84452263/120122285-6f6de080-c16d-11eb-8b41-6ceb9baacb55.jpg)
+
+*NOTE:* All this templates are documented in spanish, but if you want an english documentation you can find in the header of the codes, a link for that documentation
