@@ -42,10 +42,10 @@ For this project, I used a world finded in other github repository and I coded t
 
 First download both repositories in a workspace, so create a new one like this:
 
-´´´
+'''
 cd
 mkdir -p ~/yourWorkspace/src
-´´´
+'''
 
 Then compile it
 
