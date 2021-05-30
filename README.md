@@ -36,7 +36,7 @@ This template uses houghcircle method to find circles on the processed image, an
 *NOTE:* All this templates are documented in spanish, but if you want an english documentation you can find in the header of the codes, a link for that documentation
 
 # Line Follower
-For this project, I used a world finded in other github repository and I code the template that is in this one for move the robot and follow the line. You can find that world in the next repository: https://github.com/sudrag/line_follower_turtlebot
+For this project, I used a world finded in other github repository and I coded the template that is in this one for move the robot and follow the line. You can find that world in the next repository: https://github.com/sudrag/line_follower_turtlebot
 
 ## RUN
 
