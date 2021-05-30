@@ -34,3 +34,45 @@ This template uses houghcircle method to find circles on the processed image, an
 ![HoughCircles](https://user-images.githubusercontent.com/84452263/120122285-6f6de080-c16d-11eb-8b41-6ceb9baacb55.jpg)
 
 *NOTE:* All this templates are documented in spanish, but if you want an english documentation you can find in the header of the codes, a link for that documentation
+
+# Line Follower
+For this project, I used a world finded in other github repository and I code the template that is in this one for move the robot and follow the line. You can find that world in the next repository: https://github.com/sudrag/line_follower_turtlebot
+
+## RUN
+
+First download both repositories in a workspace, so create a new one like this:
+
+´´´
+cd
+mkdir -p ~/yourWorkspace/src
+´´´
+Then compile it
+
+´´´
+cd yourWorkspace
+catkin_make
+´´´
+Don't forget add the follow line in the .bashrc file
+´´´
+source ~/yourWorkspace/devel/setup.bash
+
+Download the repositories:
+´´´
+git clone https://github.com/sudrag/line_follower_turtlebot
+git clone https://github.com/julianroa18/OpenCV-LineFollower-and-other-applications
+´´´
+Compile the workspace again
+
+´´´
+cd yourWorkspace
+catkin_make
+´´´
+Now launch the world with the next line:
+
+´´´
+roslaunch line_follower_turtlebot lf.launch
+´´´
+And then the node
+´´´
+rosrun opencv_JR follower_JR 
+´´´
