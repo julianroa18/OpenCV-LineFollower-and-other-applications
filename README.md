@@ -49,39 +49,39 @@ mkdir -p ~/yourWorkspace/src
 
 Then compile it
 
-´´´
+```
 cd yourWorkspace
 catkin_make
-´´´
+```
 
 Don't forget add the follow line in the .bashrc file
 
-´´´
+```
 source ~/yourWorkspace/devel/setup.bash
-´´´
+```
 
 Download the repositories:
 
-´´´
+```
 git clone https://github.com/sudrag/line_follower_turtlebot
 git clone https://github.com/julianroa18/OpenCV-LineFollower-and-other-applications
-´´´
+```
 
 Compile the workspace again
 
-´´´
+```
 cd yourWorkspace
 catkin_make
-´´´
+```
 
 Now launch the world with the next line:
 
-´´´
+```
 roslaunch line_follower_turtlebot lf.launch
-´´´
+```
 
 And then the node
 
-´´´
+```
 rosrun opencv_JR follower_JR 
-´´´
+```
