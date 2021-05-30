@@ -1,0 +1,28 @@
+<launch>
+<!-- USB_CAM: Active the camera -->
+    <node name="usb_cam" pkg="usb_cam" type="usb_cam_node">
+	<param name="pixel_format " type="string" value="yuyv"/>
+	<param name="video_device  " type="string" value="/dev/video0"/>
+    </node>
+
+<!--Nodo opencv_grayImage_JR-->
+    <!--node name="opencv_grayImage_JR" pkg="opencv_JR" type="opencv_grayImage_JR">
+  </node-->
+
+<!--Nodo opencv_change_contrast_JR-->
+    <!--node name="opencv_change_contrast_JR" pkg="opencv_JR" type="opencv_change_contrast_JR">
+  </node-->
+
+<!--Nodo opencv_smoothingImages_JR-->
+<node name="opencv_smoothingImages_JR" pkg="opencv_JR" type="opencv_smoothingImages_JR">
+</node>
+
+<!--Nodo opencv_houghCircleTransform_JR-->
+<!--node name="opencv_houghCircleTransform_JR" pkg="opencv_JR" type="opencv_houghCircleTransform_JR">
+</node-->
+
+<!--Nodo opencv_template_node_JR-->
+<!--node name="opencv_template_node_JR" pkg="opencv_JR" type="opencv_template_node_JR">
+</node-->
+
+</launch>
