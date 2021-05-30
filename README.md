@@ -6,4 +6,4 @@ In this repository you can find six proyects using OpenCV with ROS, I will expla
 ## opencv_template_node_JR
 This is a first step to understand how to use the opencv resources to do the image processing. The goal of this project is paint a circle over the image, you can see that in the next picture:
 
-![Image 1][/home/julianroa18/Imágenes/Imagenes git]
+![templatenode.png][/home/julianroa18/Imágenes/Imagenes git]
