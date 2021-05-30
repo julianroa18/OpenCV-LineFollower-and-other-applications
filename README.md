@@ -35,7 +35,7 @@ This template uses houghcircle method to find circles on the processed image, an
 
 *NOTE:* All this templates are documented in spanish, but if you want an english documentation you can find in the header of the codes, a link for that documentation
 
-##LAUNCH
+## LAUNCH
 You can run this nodes with the launch file included in this repository, so download the package to an existent workspace following the next steps
 
 ```
