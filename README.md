@@ -12,17 +12,23 @@ This is a first step to understand how to use the opencv resources to do the ima
 
 This template shows how to convert an RGB color image to a gray scale one
 
+![GrayImage](https://user-images.githubusercontent.com/84452263/120122281-6da41d00-c16d-11eb-8c3b-2091096f743b.jpg)
 
 ## opencv_change_contrast_JR
 
 With this template, you can modify the contrast from an image with two trackbars, which are associated to alpha an beta
 
+![ChangeContrast](https://user-images.githubusercontent.com/84452263/120122282-6ed54a00-c16d-11eb-879b-ec8f22939ea2.jpg)
 
 ## opencv_smoothingImages_JR
 
 With this template you will learn how to apply diverse linear filters to smooth images using OpenCV functions
 
+![SmoothingImages](https://user-images.githubusercontent.com/84452263/120122284-6ed54a00-c16d-11eb-976a-440e2daee6f5.jpg)
+
 
 ## opencv_houghCircleTransform_JR
 
 This template uses houghcircle method to find circles on the processed image, and with this information, it draws a cirle on the original image.
+
+![HoughCircles](https://user-images.githubusercontent.com/84452263/120122285-6f6de080-c16d-11eb-8b41-6ceb9baacb55.jpg)
