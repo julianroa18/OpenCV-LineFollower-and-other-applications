@@ -103,9 +103,3 @@ NOTE: This template is docummented in english
 
 # Developers
 -Julián Roa
-
--Kevin Parra
-
--Gerson Hernández
-
--Daniel Cruz
