@@ -103,3 +103,6 @@ NOTE: This template is docummented in english
 
 # Developer
 -Julián Roa
+
+# Tutor
+-Hernán Hernandez
