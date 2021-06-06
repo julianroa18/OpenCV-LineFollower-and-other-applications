@@ -102,7 +102,7 @@ rosrun opencv_JR follower_JR
 NOTE: This template is docummented in english
 
 # Developer
--Julián Roa
+- Julián Roa
 
 # Tutor
--Hernán Hernandez
+- Hernán Hernandez
